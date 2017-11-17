@@ -1,6 +1,9 @@
 {
   "name": "dojo",
   "description": "Dojo 2 Monorepo",
+  "scripts": {
+    "prepublish": "typings install"
+  },
   "dependencies": {
     "intersection-observer": "^0.4.2",
     "jsdom": "^10.0.0",
