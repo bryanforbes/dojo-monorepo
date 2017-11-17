@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+		"experimentalDecorators": true,
+    "inlineSources": true,
+		"lib": [
+			"dom",
+			"es5",
+			"es2015.collection",
+			"es2015.iterable",
+			"es2015.promise",
+			"es2015.symbol",
+			"es2015.symbol.wellknown"
+		],
+		"moduleResolution": "node",
+		"outDir": "./_build/",
+		"removeComments": false,
+    "rootDir": "./packages",
+		"sourceMap": true,
+    "strict": true
+  }
+}

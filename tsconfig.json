@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "downlevelIteration": true,
+		"importHelpers": true,
+		"module": "umd",
+		"target": "es5",
+		"types": [ "intern", "web-animations-js" ]
+  },
+  "include": [
+    "./packages/node_modules/@dojo/**/*.ts",
+		"./typings/index.d.ts"
+  ],
+  "exclude": [
+    "./packages/node_modules/@dojo/loader"
+  ]
+}

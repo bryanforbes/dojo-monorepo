@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./_dist/",
+    "types": [ "node", "web-animations-js" ]
+  },
+  "exclude": [
+    "packages/has/tests/**/*.ts",
+    "packages/shim/tests/**/*.ts",
+    "packages/core/tests/**/*.ts"
+  ]
+}

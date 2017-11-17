@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig-loader.json",
+  "compilerOptions": {
+    "outDir": "./_dist/",
+    "types": [ "node" ]
+  },
+  "exclude": [
+    "./packages/node_modules/@dojo/loader/tests/**/*"
+  ]
+}
